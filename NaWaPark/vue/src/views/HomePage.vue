@@ -1,27 +1,25 @@
 <template>
-  <v-container>
-	<v-div>
-		<SubscriptionForm />
-	</v-div>
-	
-	
-	
-	
-  </v-container>
+	<v-card color="basil">
+		<v-div class="subscription-form-container">
+			<SubscriptionForm />
+		</v-div>
+	</v-card>
 </template>
 
 <script>
 import SubscriptionForm from '../components/SubscriptionForm.vue'
 
 export default {
-  name: 'HomePage',
+	name: 'HomePage',
 
-  components: {
-    SubscriptionForm
-  }
+	components: {
+		SubscriptionForm
+	}
 }
 </script>
 
 <style scoped>
-/* Add custom styles for your homepage */
+.subscription-form-container {
+  padding: 30px; /* Adjust the padding as needed */
+}
 </style>
