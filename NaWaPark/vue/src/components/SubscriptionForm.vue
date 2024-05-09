@@ -100,8 +100,10 @@ export default {
   width: 100%;
   padding: 8px;
   font-size: 1em;
-  border: 1px solid #ccc;
+  border: none;
+  border-bottom: 2px solid #356859;
   border-radius: 3px;
+  outline: none;
 }
 
 .asterisk {
@@ -154,10 +156,15 @@ export default {
   background-color: #356859; /* 배경색 변경 */
   cursor: pointer;
   transition: background-color 0.3s ease; /* hover 효과 추가 */
+  transition: transform 0.3s ease;
 }
 
 .form-submit-button:hover {
   background-color: #2d5249; /* hover시 배경색 변경 */
+  transform: scale(1.1);
+}
+.form-input:focus {
+  border-bottom-color: #2d5249;
 }
 
 </style>
