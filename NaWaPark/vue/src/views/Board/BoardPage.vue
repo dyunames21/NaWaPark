@@ -14,16 +14,14 @@
 	class="px-2"
     >
       <v-card
-        class="mx-auto mb-6 rounded-lg bg-basil text-basil"
-        max-width="300"
+        class="mx-auto mb-6 bg-basil text-basil"
+        max-width="350"
         @mouseenter="hoverCard(index, true)"
         @mouseleave="hoverCard(index, false)"
-        :style="{ transform: board.hover ? 'scale(1.05)' : 'scale(1)' }"
       >
         <v-img
           :src="board.imageUrl"
           aspect-ratio="1/1"
-          style="object-fit: cover; border-radius: 16px 16px 0 0;"
         ></v-img>
 
         <v-card-title style="height: auto;">
@@ -62,9 +60,7 @@ export default {
 </script>
 
 <style scoped>
-.rounded-lg {
-  border-radius: 16px;
-}
+
 .bg-basil {
   background-color: #356859 !important;
 }

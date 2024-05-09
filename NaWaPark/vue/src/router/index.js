@@ -15,7 +15,12 @@ const routes = [
     {
       path: "/board",
       name: "BoardPage",
-      component: () => import('../views/BoardPage.vue') // [로드 파일]
+      component: () => import('../views/Board/BoardPage.vue') // [로드 파일]
+    },
+    {
+      path: "/board/detail",
+      name: "BoardDetail",
+      component: () => import('../views/Board/BoardDetail.vue') // [로드 파일]
     }
   ];
 

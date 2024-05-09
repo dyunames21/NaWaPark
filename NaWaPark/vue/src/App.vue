@@ -38,7 +38,11 @@ export default {
         {
           path: '/board',
           name: 'BoardPage',
-        }
+        },
+		{
+			path: '/board/detail',
+			name: 'BoardDetail',
+		},
       ],
     };
   },

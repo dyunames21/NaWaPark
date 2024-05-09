@@ -10,7 +10,7 @@
       ></v-btn>
     </div>
 
-	<h5 class="font-weight-bold text-h5 text-basil">Footer</h5>
+	<h5 class="font-weight-bold text-h5 text-basil">NaWaPark</h5>
 
   </v-footer>
 </template>
@@ -20,7 +20,7 @@
 <script>
   export default {
     data: () => ({
-      icons: ['mdi-facebook', 'mdi-twitter', 'mdi-linkedin', 'mdi-instagram'],
+      icons: ['mdi-linkedin', 'mdi-instagram'],
     }),
   }
 </script>

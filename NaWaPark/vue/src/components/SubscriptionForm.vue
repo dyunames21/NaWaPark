@@ -72,18 +72,20 @@ export default {
 <style scoped>
 /* 전체 스타일 */
 #stb_subscribe {
-  max-width: 400px;
-  margin: 0 auto;
+  max-width: auto;
+  margin: 10px;
   padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  border: 3px solid   rgb(255, 255, 255);
   background-color: #fff; /* 배경색 변경 */
   color: #356859; /* 텍스트 색상 변경 */
+  font-size: 10pt;
+  
 }
 
 .form-title {
   font-size: 1.5em;
   margin-bottom: 20px;
+  color: #356859
 }
 
 .form-group {
@@ -150,8 +152,6 @@ export default {
   padding: 10px;
   color: #fff;
   background-color: #356859; /* 배경색 변경 */
-  border: none;
-  border-radius: 3px;
   cursor: pointer;
   transition: background-color 0.3s ease; /* hover 효과 추가 */
 }
